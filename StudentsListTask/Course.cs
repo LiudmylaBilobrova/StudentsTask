@@ -6,17 +6,15 @@ using System.Threading.Tasks;
 
 namespace StudentsListTask
 {
-    public class Student
+    class Course
     {
         public string Name { get; set; }
 
-        public DateTime BirthDate { get; set; }
+        public string Description { get; set; }
 
-        public int Age { get; set; }
-
-        public Student(string studentName)
+        public Course(string courseName)
         {
-            this.Name = studentName;
+            this.Name = courseName;
         }
     }
 }
