@@ -46,12 +46,12 @@ namespace StudentsListTask
 
         public void PrintCourseStudents()
         {
-            for (var i = 0; i < Students.Count; i++)
+            foreach (Student i in _students)
             {
                 Console.WriteLine("List of students on the course:");
-                Console.WriteLine(Students[i].Name);
-                Console.ReadKey();
+                Console.WriteLine(i.Name);
             }
+
         }
 
         public void QuantityCourseStudents()
