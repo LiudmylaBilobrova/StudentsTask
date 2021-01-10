@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StudentsListTask
+namespace StudentsListTask2
 {
     public class Student
     {
@@ -18,7 +18,6 @@ namespace StudentsListTask
         {
             this.Name = studentName;
         }
-
 
     }
 }
