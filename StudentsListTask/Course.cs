@@ -21,14 +21,6 @@ namespace StudentsListTask
             }
         }
 
-        public int overallQuantityReturn;
-
-        public void OverallQuantityReturn()
-        {
-            Console.WriteLine($"Overall quantity of students: {_students.Count}");
-            Console.ReadKey();
-        }
-
 
         public Course(string courseName)
         {
